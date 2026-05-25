@@ -1,22 +1,30 @@
 # Portfolio
 My Data Analyst Portfolio.
 
-## NYC Taxi KPI Dashboard
-![alt text](https://github.com/Singularity-Coder/NYC-Taxi-Dashboard/blob/main/assets/banner.jpg)
-* Built ETL on 3M+ TLC trips + Meteostat weather; added pre-aggregations to cut Tableau read time −70%.
-* [Project Link](https://github.com/Singularity-Coder/NYC-Taxi-KPI-Dashboard)
+### Brazilian E-commerce Sales and Fulfillment Analysis, 2016-2018: Growth, Seasonality, Delivery vs. Estimates
+![alt text](https://github.com/codehithesh/Brazil-Ecommerce-Sales-Fulfillment-Analysis/blob/main/assets/banner.jpg)
+* Analyzed 120k+ e-commerce transactions in BigQuery across an eight-table schema using CTEs, joins, window functions, and date functions to assess order trends, payment patterns, and fulfillment performance.
+* Identified YoY payment growth, seasonality, and significant regional variance, informing recommendations on inventory, freight optimization, and targeted marketing.
+* Tech Stack: SQL, BigQuery
+* [Project Link](https://github.com/codehithesh/Brazil-Ecommerce-Sales-Fulfillment-Analysis)
 
-## Retail Sales & Fulfillment Analysis
-![alt text](https://github.com/Singularity-Coder/Retail-Sales-and-Fulfillment-Analysis/blob/main/assets/banner.png)
-* Modeled 120k+ orders across 8 tables using CTEs/window functions; identified 137% YoY growth and 20+ day delivery gaps.
-* [Project Link](https://github.com/Singularity-Coder/Retail-Sales-and-Fulfillment-Analysis)
+---
 
-## Ride-sharing Seasonality Tests
-![alt text](https://github.com/Singularity-Coder/Ride-sharing-Seasonality-Tests/blob/main/assets/banner.png)
-* Ran t-tests/ANOVA/Chi-squared with Shapiro-Wilk & Levene checks on 10k+ trips; found season & weather significant (p<0.05); translated into dynamic pricing and fleet recommendations.
-* [Project Link](https://github.com/Singularity-Coder/Ride-sharing-Seasonality-Tests)
+### Do Women Spend More Than Men on Black Friday? Customer Spend Analysis
+![alt text](https://github.com/codehithesh/Black-Friday-Customer-Spend-Analysis/blob/main/assets/banner.jpg)
+* Compared per-customer spend by gender and age (5,891 customers, 550k transactions) using Welch's t-test, ANOVA with Tukey HSD, and user-level bootstrap CIs; found men spent ₹213k more per customer on average (95% CI ₹164k-₹262k, d ≈ 0.23), with spend peaking at ages 26-35.
+* Tech Stack: Numpy, Pandas, Seaborn, Matplotlib, Scipy, Statistical Modelling and Inference, Hypothesis Testing
+* [Project Link](https://github.com/codehithesh/Black-Friday-Customer-Spend-Analysis)
 
-## Last-mile Route-ETA Feature Pipeline 
-![alt text](https://github.com/Singularity-Coder/Last-mile-Route-ETA-Feature-Pipeline/blob/main/assets/banner.png)
-* Engineered scalable feature pipeline for 144K+ delivery records, implementing temporal extraction, geospatial parsing, IQR outlier detection, and multi-dimensional aggregations to enable predictive modeling for India's largest logistics platform.
-* [Project Link](https://github.com/Singularity-Coder/Last-mile-Route-ETA-Feature-Pipeline)
+---
+
+### Netflix Content Catalog Analysis: Movies vs. TV Shows, Geography, and Release Timing
+![alt text](https://github.com/codehithesh/Netflix-Content-Catalog-Analysis/blob/main/assets/screenshots/s1.png)
+* Developed a dynamic dashboard in Tableau, showcasing 5 visualizations of movie trends.
+Analyzed ~6K Netflix records, created a dashboard displaying ratings, distribution of popular shows, enhancing data visibility and insights.
+* Tech Stack: Tableau, Numpy, Pandas
+* [Project Link](https://github.com/codehithesh/Netflix-Content-Catalog-Analysis)
+
+---
+
+[More Projects ->](https://github.com/codehithesh/Portfolio/blob/main/README2.md)
